@@ -5,6 +5,26 @@
 		<LangVersion>12.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+
+		<PackageId>ChaosForge</PackageId>
+		<Version>1.0.0</Version>
+		<Title>A high-entropy cryptographic random number generator for .NET</Title>
+		<Description>A high-entropy cryptographic random number generator for .NET that combines entropy pooling, SHA-256 whitening, and counter-driven output generation.</Description>
+		<Authors>Gaten</Authors>
+		<Company>Erin Wave</Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageTags>rng;random;entropy;cryptography;security;drbg;csprng;chaosforge;dotnet</PackageTags>
+		<PackageProjectUrl>https://github.com/dongbin300/ChaosForge</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/dongbin300/ChaosForge</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>

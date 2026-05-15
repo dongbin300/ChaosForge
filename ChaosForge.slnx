@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ChaosAudit/ChaosAudit.csproj" />
+  <Project Path="ChaosForge.Example/ChaosForge.Example.csproj" />
+  <Project Path="ChaosForge/ChaosForge.csproj" />
+</Solution>
